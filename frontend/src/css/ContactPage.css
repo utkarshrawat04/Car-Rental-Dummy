@@ -1,0 +1,74 @@
+/* General styling for the contact page */
+.contact-page {
+  font-family: Arial, sans-serif; /* Sets a consistent font for the contact page */
+}
+
+/* Navigation Bar Styling */
+/* Styles for the navbar container */
+.navbar {
+  background-color: #333; /* Dark background color for the navbar */
+  overflow: hidden; /* Ensures no overflowing content */
+  padding: 10px 20px; /* Adds padding inside the navbar */
+  display: flex; /* Flexbox layout to position content */
+  justify-content: space-between; /* Space between logo and navigation links */
+  align-items: center; /* Vertically aligns the items in the center */
+}
+
+/* Styles for the logo in the navbar */
+.navbar .logo {
+  color: white; /* White text color for the logo */
+  font-size: 24px; /* Larger font size for the logo */
+}
+
+/* Styles for the unordered list in the navbar */
+.navbar ul {
+  list-style-type: none; /* Removes default bullet points from the list */
+  margin: 0; /* Removes default margin */
+  padding: 0; /* Removes default padding */
+  display: flex; /* Displays the list items in a row */
+}
+
+/* Styles for each list item in the navbar */
+.navbar ul li {
+  margin: 0 10px; /* Adds space between each navigation link */
+}
+
+/* Styles for the anchor tags (links) in the navbar */
+.navbar ul li a {
+  color: white; /* White text color for the links */
+  text-decoration: none; /* Removes underline from links */
+}
+
+/* Contact Section Styling */
+/* Styles for the main contact section */
+.contact-section {
+  padding: 40px; /* Adds padding around the contact section */
+  text-align: left; /* Aligns text to the left */
+}
+
+/* Styles for the heading in the contact section */
+.contact-section h2 {
+  font-size: 28px; /* Larger font size for the heading */
+  margin-bottom: 20px; /* Adds space below the heading */
+}
+
+/* Styles for paragraphs in the contact section */
+.contact-section p {
+  font-size: 18px; /* Sets a readable font size for the text */
+  margin: 5px 0; /* Adds space above and below each paragraph */
+}
+
+/* Styles for links in the contact section */
+.contact-section a {
+  color: blue; /* Blue text color for links */
+  text-decoration: none; /* Removes underline from links */
+}
+
+/* Footer Styling */
+/* Styles for the footer at the bottom of the page */
+footer {
+  background-color: #333; /* Dark background color for the footer */
+  color: white; /* White text color */
+  text-align: center; /* Centers the text in the footer */
+  padding: 10px; /* Adds padding inside the footer */
+}

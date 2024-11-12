@@ -1,0 +1,135 @@
+/* General Page Styling */
+/* Styles for the main container of the car details page */
+.car-details-page {
+  max-width: 1200px; /* Maximum width for the page container */
+  margin: 0 auto; /* Centers the container horizontally */
+  padding: 20px; /* Adds padding around the content */
+  font-family: Arial, sans-serif; /* Sets the font for the page */
+}
+
+/* Styles for the main heading of the car details page */
+.car-details-page h1 {
+  text-align: center; /* Centers the heading */
+  margin-bottom: 20px; /* Adds space below the heading */
+  color: #333; /* Dark gray color for the heading text */
+}
+
+/* Table Styling for Car Details */
+/* Styles for the table displaying car details */
+.car-details-table {
+  width: 100%; /* Makes the table full width */
+  margin-bottom: 40px; /* Adds space below the table */
+  border-collapse: collapse; /* Ensures no gaps between table cells */
+  font-size: 16px; /* Sets the font size for table text */
+}
+
+/* Styles for the table cells */
+.car-details-table td {
+  padding: 10px; /* Adds padding inside table cells */
+  border: 1px solid #ddd; /* Light gray border around each cell */
+}
+
+/* Styles for the first cell in each row */
+.car-details-table td:first-child {
+  font-weight: bold; /* Makes the first column text bold */
+  background-color: #f4f4f4; /* Light gray background for the first column */
+}
+
+/* Alternating row colors for the table */
+.car-details-table tr:nth-child(even) td {
+  background-color: #f9f9f9; /* Lighter background for even rows */
+}
+
+/* Hover effect for table rows */
+.car-details-table tr:hover td {
+  background-color: #f1f1f1; /* Changes background on hover */
+}
+
+/* Card Styling for Car Image and Summary */
+/* Styles for the card container displaying the car image and summary */
+.car-details-card {
+  display: flex; /* Flexbox layout for card */
+  flex-direction: column; /* Stacks content vertically */
+  align-items: center; /* Centers content horizontally */
+  padding: 20px; /* Adds padding inside the card */
+  border: 1px solid #ddd; /* Light gray border around the card */
+  border-radius: 8px; /* Rounds the corners of the card */
+  background-color: #fff; /* White background for the card */
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1); /* Adds subtle shadow for depth */
+}
+
+/* Styles for the car image inside the card */
+.car-details-card img {
+  max-width: 100%; /* Ensures the image does not exceed its container width */
+  height: auto; /* Maintains the image's aspect ratio */
+  border-radius: 8px; /* Rounds the corners of the image */
+  margin-bottom: 20px; /* Adds space below the image */
+}
+
+/* Styles for the heading inside the card */
+.car-details-card h2 {
+  margin: 10px 0; /* Adds space above and below the heading */
+  color: #333; /* Dark gray color for the heading text */
+}
+
+/* Styles for the paragraph text inside the card */
+.car-details-card p {
+  font-size: 18px; /* Sets the font size for the paragraph */
+  color: #666; /* Medium gray color for the paragraph text */
+  margin: 5px 0; /* Adds small margins above and below the paragraph */
+}
+
+/* Responsive layout for screens wider than 768px */
+@media (min-width: 768px) {
+  .car-details-card {
+    flex-direction: row; /* Aligns the image and text side by side */
+    justify-content: space-between; /* Adds space between image and text */
+  }
+
+  .car-details-card img {
+    max-width: 50%; /* Restricts the image to 50% of the card width */
+    margin-right: 20px; /* Adds space between the image and text */
+  }
+
+  .car-details-card h2, .car-details-card p {
+    text-align: left; /* Aligns the text to the left for larger screens */
+  }
+
+  /* Back Button Styling */
+  .back-button {
+      display: inline-block; /* Makes the button an inline-block element */
+      margin-top: 20px; /* Adds space above the button */
+      padding: 10px 20px; /* Adds padding inside the button */
+      background-color: #4CAF50; /* Green background color */
+      color: white; /* White text color */
+      font-size: 16px; /* Sets the font size */
+      border: none; /* Removes border */
+      border-radius: 4px; /* Rounds the corners */
+      cursor: pointer; /* Changes the cursor to pointer on hover */
+  }
+    
+  /* Hover effect for the back button */
+  .back-button:hover {
+      background-color: #45a049; /* Darker green on hover */
+  }
+
+  /* Adjusts margin for the card */
+  .car-details-card {
+      margin-bottom: 20px; /* Adds space below the card */
+  }
+}
+
+/* Responsive Styling for screens narrower than 768px */
+@media (max-width: 768px) {
+  .car-details-table td {
+    font-size: 14px; /* Reduces font size for table cells on small screens */
+  }
+
+  .car-details-card img {
+    max-width: 100%; /* Ensures the image uses full width on small screens */
+  }
+
+  .car-details-page h1 {
+    font-size: 24px; /* Reduces the font size of the heading for small screens */
+  }
+}

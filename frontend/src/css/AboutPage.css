@@ -1,0 +1,84 @@
+/* Styles for the About Page */
+.about-page {
+  font-family: 'Arial', sans-serif; /* Sets the font for the About Page */
+  padding: 40px; /* Adds padding around the content */
+  background-color: #f4f4f4; /* Light gray background for the page */
+}
+
+/* Styles for headings in the About Page */
+.about-page h1, .about-page h2 {
+  color: #2c3e50; /* Dark blue color for headings */
+  font-weight: 700; /* Bold font weight for headings */
+  margin-bottom: 20px; /* Adds space below the headings */
+}
+
+/* Styles for paragraphs in the About Page */
+.about-page p {
+  font-size: 18px; /* Slightly larger font for readability */
+  color: #7f8c8d; /* Medium gray text color */
+  line-height: 1.6; /* Increases line spacing for better readability */
+  margin-bottom: 20px; /* Adds space below each paragraph */
+}
+
+/* Styles for links in the About Page */
+.about-page a {
+  color: #3498db; /* Blue color for links */
+  text-decoration: none; /* Removes underline from links */
+  font-weight: 600; /* Slightly bold font for links */
+}
+
+/* Adds underline to links on hover */
+.about-page a:hover {
+  text-decoration: underline; /* Underline links when hovered */
+}
+
+/* Styles for unordered lists in the About Page */
+.about-page ul {
+  list-style-type: disc; /* Adds bullet points to the list */
+  margin-left: 40px; /* Indents the list from the left */
+  margin-bottom: 20px; /* Adds space below the list */
+}
+
+/* Styles for list items in the About Page */
+.about-page ul li {
+  font-size: 18px; /* Sets font size for list items */
+  color: #34495e; /* Dark gray text color for list items */
+  margin-bottom: 10px; /* Adds space below each list item */
+}
+
+/* Styles for testimonial section */
+.testimonial {
+  border: 1px solid #e1e1e1; /* Light gray border around the testimonial */
+  padding: 25px; /* Adds padding inside the testimonial box */
+  margin-top: 30px; /* Adds space above the testimonial section */
+  background-color: #ffffff; /* White background for testimonials */
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.05); /* Adds subtle shadow for depth */
+  transition: transform 0.3s ease, opacity 0.3s ease; /* Smooth transition for appearing testimonials */
+  opacity: 0; /* Hidden by default */
+  transform: translateY(10px); /* Slightly moved down initially */
+}
+
+/* Active state for testimonials */
+.testimonial.active {
+  opacity: 1; /* Makes the testimonial visible */
+  transform: translateY(0); /* Moves it to its original position */
+}
+
+/* Styles for testimonial headings */
+.testimonial h3 {
+  margin-bottom: 10px; /* Adds space below the heading */
+  font-size: 22px; /* Larger font size for testimonial headings */
+  color: #2c3e50; /* Dark blue color for the heading */
+}
+
+/* Styles for testimonial text */
+.testimonial p {
+  font-size: 16px; /* Font size for the testimonial text */
+  color: #7f8c8d; /* Medium gray text color */
+  margin: 5px 0; /* Adds small space above and below paragraphs */
+}
+
+/* Styles for footer */
+footer {
+  margin-top: 50px; /* Adds space above the footer */
+}

@@ -1,0 +1,349 @@
+/* General Styling for Services Page */
+/* Styles for the main container of the services page */
+.services-page {
+    background: linear-gradient(to bottom, #e6f7ff, white 100%); /* Gradient background effect */
+    padding: 30px 20px; /* Adds padding around the content */
+    display: flex; /* Flexbox layout for aligning content */
+    flex-direction: column; /* Stacks content vertically */
+    align-items: center; /* Centers content horizontally */
+    width: 100%; /* Full width container */
+}
+
+/* Category Filter Styling */
+/* Styles for the filter dropdown */
+.category-filter {
+    margin-bottom: 30px; /* Adds space below the filter */
+    text-align: center; /* Centers the filter text */
+}
+
+/* Car List Styling */
+/* Styles for the grid layout of car items */
+.car-list {
+    display: grid; /* Grid layout for the car items */
+    grid-template-columns: repeat(auto-fit, minmax(300px, 1fr)); /* Responsive grid with a minimum width for each item */
+    gap: 30px; /* Space between the grid items */
+    max-width: 1200px; /* Limits the width of the grid */
+    width: 100%; /* Full width grid */
+}
+
+/* Car Item Styling */
+/* Styles for individual car items */
+.car-item {
+    background-color: white; /* White background for each car item */
+    border-radius: 15px; /* Rounds the corners of each item */
+    box-shadow: 0 10px 20px rgba(0, 0, 0, 0.1); /* Adds a subtle shadow */
+    transition: transform 0.3s ease, box-shadow 0.3s ease; /* Smooth transition effects */
+    display: flex; /* Flexbox layout for the item */
+    flex-direction: column; /* Stacks content vertically */
+    align-items: center; /* Centers content horizontally */
+    text-align: center; /* Centers the text */
+    position: relative; /* Allows positioning elements relative to the item */
+    padding: 20px; /* Adds padding inside the item */
+    height: 100%; /* Ensures the item takes up full height */
+}
+
+/* Hover effect for car items */
+.car-item:hover {
+    transform: translateY(-10px); /* Moves the item slightly upward on hover */
+    box-shadow: 0 20px 40px rgba(0, 0, 0, 0.2); /* Adds a deeper shadow on hover */
+}
+
+/* Car Image Styling */
+/* Styles for the car image inside the item */
+.car-item img {
+    width: 100%; /* Full width image */
+    height: auto; /* Maintains aspect ratio */
+    border-radius: 10px; /* Rounds the corners of the image */
+    margin-bottom: 15px; /* Adds space below the image */
+}
+
+/* Sale Badge Styling */
+/* Styles for the "Sale" badge on items */
+.sale-badge {
+    background-color: red; /* Red background for visibility */
+    color: white; /* White text */
+    padding: 5px 10px; /* Adds padding inside the badge */
+    position: absolute; /* Positions the badge relative to the car item */
+    top: 10px; /* Positions the badge at the top */
+    left: 10px; /* Positions the badge at the left */
+    font-size: 12px; /* Small font size for the badge */
+    border-radius: 50px; /* Fully rounded badge */
+}
+
+/* Car Item Text Styling */
+/* Styles for the car name (h3) */
+.car-item h3 {
+    font-size: 22px; /* Font size for the car name */
+    font-weight: bold; /* Bold text */
+    margin-bottom: 10px; /* Adds space below the car name */
+}
+
+/* Old Price Styling */
+/* Styles for the old price (strikethrough) */
+.old-price {
+    text-decoration: line-through; /* Strikethrough effect */
+    color: #b12704; /* Red color for the old price */
+    font-weight: bold; /* Bold text */
+    margin-bottom: 5px; /* Adds space below the old price */
+}
+
+/* Current Price Styling */
+/* Styles for the current price */
+.price {
+    font-size: 20px; /* Larger font size for emphasis */
+    margin-bottom: 20px; /* Adds space below the price */
+    color: #333; /* Dark gray text color */
+}
+
+/* Button Styling for "Book Now" and "More Details" */
+/* Styles for action buttons inside car items */
+.book-now-button, .more-details-button {
+    padding: 10px 20px; /* Adds padding inside the buttons */
+    margin: 10px 0; /* Adds space around the buttons */
+    font-size: 16px; /* Font size for the button text */
+    border-radius: 10px; /* Rounds the corners of the buttons */
+    transition: background-color 0.3s ease; /* Smooth background color transition */
+    width: 70%; /* Sets button width */
+    cursor: pointer; /* Changes the cursor to pointer on hover */
+    border: none; /* Removes default border */
+}
+
+/* Styles for the "Book Now" button */
+.book-now-button {
+    background-color: #3498db; /* Blue background color */
+    color: white; /* White text */
+}
+
+/* Hover effect for "Book Now" button */
+.book-now-button:hover {
+    background-color: #2980b9; /* Darker blue on hover */
+}
+
+/* Styles for the "More Details" button */
+.more-details-button {
+    background-color: #e67e22; /* Orange background color */
+    color: white; /* White text */
+}
+
+/* Hover effect for "More Details" button */
+.more-details-button:hover {
+    background-color: #d35400; /* Darker orange on hover */
+}
+
+/* Action Button Styling for "Edit" and "Delete" */
+/* Styles for the edit and delete buttons inside car items */
+.action-buttons {
+    display: flex; /* Flexbox layout for the buttons */
+    justify-content: center; /* Centers the buttons horizontally */
+    gap: 10px; /* Adds space between the buttons */
+    width: 100%; /* Full width */
+    margin-top: 10px; /* Adds space above the buttons */
+}
+
+/* Styles for the edit and delete buttons */
+.edit-car-button, .delete-car-button {
+    width: 45%; /* Sets button width */
+}
+
+/* Styles for the "Edit Car" button */
+.edit-car-button {
+    background-color: #2ecc71; /* Green background color */
+    color: white; /* White text */
+    border: none; /* Removes border */
+    padding: 10px 20px; /* Adds padding */
+    border-radius: 10px; /* Rounds the corners */
+    font-size: 16px; /* Font size */
+    cursor: pointer; /* Pointer cursor */
+    transition: background-color 0.3s ease, transform 0.3s ease; /* Smooth transition */
+}
+
+/* Hover effect for "Edit Car" button */
+.edit-car-button:hover {
+    background-color: #27ae60; /* Darker green on hover */
+}
+
+/* Styles for the "Delete Car" button */
+.delete-car-button {
+    background-color: #e74c3c; /* Red background color */
+    color: white; /* White text */
+    border: none; /* Removes border */
+    padding: 10px 20px; /* Adds padding */
+    border-radius: 10px; /* Rounds the corners */
+    font-size: 16px; /* Font size */
+    cursor: pointer; /* Pointer cursor */
+    transition: background-color 0.3s ease, transform 0.3s ease; /* Smooth transition */
+}
+
+/* Hover effect for "Delete Car" button */
+.delete-car-button:hover {
+    background-color: #c0392b; /* Darker red on hover */
+    transform: translateY(-3px); /* Lifts the button slightly on hover */
+}
+
+/* Active state for "Delete Car" button */
+.delete-car-button:active {
+    transform: translateY(0); /* Resets transform on active */
+    box-shadow: 0 6px 12px rgba(0, 0, 0, 0.2); /* Adds shadow on click */
+}
+
+/* Form Styling Inside Car Border */
+/* Styles for the edit car form */
+.edit-car-form {
+    border: 2px solid #3498db; /* Blue border */
+    border-radius: 15px; /* Rounds the corners of the form */
+    padding: 20px; /* Adds padding inside the form */
+    margin-top: 20px; /* Adds space above the form */
+    width: 100%; /* Full width form */
+    box-shadow: 0 10px 20px rgba(0, 0, 0, 0.1); /* Adds a subtle shadow */
+    background-color: white; /* White background */
+    display: flex; /* Flexbox layout for the form */
+    flex-direction: column; /* Stacks content vertically */
+    align-items: flex-start; /* Aligns content to the start */
+    text-align: left; /* Left-aligned text */
+}
+
+/* Styles for labels inside the form */
+.edit-car-form label {
+    display: block; /* Ensures labels are block elements */
+    margin-bottom: 8px; /* Adds space below labels */
+    font-size: 16px; /* Font size */
+    font-weight: bold; /* Bold text */
+    color: #333; /* Dark gray color */
+}
+
+/* Input and Select Styling */
+/* Styles for input and select fields inside the form */
+.edit-car-form input, .edit-car-form select {
+    width: 100%; /* Full width fields */
+    padding: 10px; /* Adds padding inside the fields */
+    margin-bottom: 15px; /* Adds space below fields */
+    border-radius: 10px; /* Rounds the corners */
+    border: 1px solid #dcdcdc; /* Light gray border */
+    font-size: 16px; /* Font size */
+    outline: none; /* Removes outline on focus */
+}
+
+/* File Input Styling */
+/* Styles for the file input inside the form */
+.edit-car-form input[type="file"] {
+    padding: 5px; /* Adds padding inside the file input */
+}
+
+/* Button Styling Inside the Edit Form */
+/* Styles for buttons inside the form */
+.edit-car-form button {
+    background-color: #2ecc71; /* Green background color */
+    color: white; /* White text */
+    padding: 10px 20px; /* Adds padding inside the button */
+    font-size: 16px; /* Font size */
+    border: none; /* Removes border */
+    border-radius: 10px; /* Rounds the corners */
+    cursor: pointer; /* Pointer cursor */
+    transition: background-color 0.3s; /* Smooth background color transition */
+    width: 100%; /* Full width button */
+}
+
+/* Cancel Button Styling */
+/* Styles for the cancel and save buttons inside the form */
+.edit-form-buttons {
+    display: flex; /* Flexbox layout for the buttons */
+    justify-content: space-between; /* Space between buttons */
+    gap: 10px; /* Adds space between the buttons */
+    width: 100%; /* Full width button group */
+}
+
+/* Styles for the save changes button */
+.save-changes-button {
+    background-color: #2ecc71; /* Green background color */
+}
+
+/* Styles for the cancel button */
+.cancel-button {
+    background-color: #e74c3c; /* Red background color */
+    color: white; /* White text */
+}
+
+/* Hover effect for the cancel button */
+.cancel-button:hover {
+    background-color: #c0392b; /* Darker red on hover */
+}
+
+/* Add Car Form Button Styling */
+/* Styles for the "Add Car" button inside the form */
+.add-car-form button {
+    background: linear-gradient(135deg, #1d976c, #93f9b9); /* Green gradient background */
+    color: white; /* White text */
+    padding: 12px 25px; /* Adds padding inside the button */
+    font-size: 18px; /* Larger font size */
+    border: none; /* Removes border */
+    border-radius: 12px; /* Rounds the corners */
+    cursor: pointer; /* Pointer cursor */
+    transition: background 0.4s, transform 0.3s, box-shadow 0.3s; /* Smooth transition effects */
+    width: 100%; /* Full width button */
+    font-weight: bold; /* Bold text */
+    box-shadow: 0 6px 12px rgba(0, 0, 0, 0.2); /* Adds a shadow for depth */
+}
+
+/* Hover effect for the "Add Car" button */
+.add-car-form button:hover {
+    background: linear-gradient(135deg, #0e7e56, #7ff0aa); /* Darker gradient on hover */
+    transform: translateY(-3px); /* Slight lift on hover */
+    box-shadow: 0 12px 24px rgba(0, 0, 0, 0.3); /* Larger shadow on hover */
+}
+
+/* Active state for the "Add Car" button */
+.add-car-form button:active {
+    transform: translateY(0); /* Resets transform on active */
+    box-shadow: 0 6px 12px rgba(0, 0, 0, 0.2); /* Resets shadow on active */
+}
+
+/* Add New Car Button Styling */
+/* Styles for the "Add New Car" button (outside the form) */
+.add-new-car-button {
+    background: linear-gradient(135deg, #1d976c, #93f9b9); /* Green gradient background */
+    color: white; /* White text */
+    padding: 12px 25px; /* Adds padding inside the button */
+    font-size: 18px; /* Larger font size */
+    border: none; /* Removes border */
+    border-radius: 12px; /* Rounds the corners */
+    cursor: pointer; /* Pointer cursor */
+    transition: background 0.4s, transform 0.3s, box-shadow 0.3s; /* Smooth transition effects */
+    font-weight: bold; /* Bold text */
+    box-shadow: 0 6px 12px rgba(0, 0, 0, 0.2); /* Adds a shadow for depth */
+    margin-bottom: 20px; /* Adds space below the button */
+}
+
+/* Hover effect for the "Add New Car" button */
+.add-new-car-button:hover {
+    background: linear-gradient(135deg, #0e7e56, #7ff0aa); /* Darker gradient on hover */
+    transform: translateY(-3px); /* Slight lift on hover */
+    box-shadow: 0 12px 24px rgba(0, 0, 0, 0.3); /* Larger shadow on hover */
+}
+
+/* Active state for the "Add New Car" button */
+.add-new-car-button:active {
+    transform: translateY(0); /* Resets transform on active */
+    box-shadow: 0 6px 12px rgba(0, 0, 0, 0.2); /* Resets shadow on active */
+}
+
+/* Success and Error Message Styling */
+/* Styles for success messages */
+.success-message {
+    color: green; /* Green text color for success */
+    margin-bottom: 20px; /* Adds space below the message */
+}
+
+/* Styles for error messages */
+.error-message {
+    color: red; /* Red text color for errors */
+    margin-bottom: 20px; /* Adds space below the message */
+}
+
+/* Footer Styling */
+/* Styles for the footer section */
+footer {
+    background-color: #333; /* Dark background for the footer */
+    color: white; /* White text */
+    text-align: center; /* Centers the footer text */
+    padding: 10px; /* Adds padding inside the footer */
+}

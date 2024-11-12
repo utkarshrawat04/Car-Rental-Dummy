@@ -1,0 +1,103 @@
+/* Container for the Invoice Page */
+/* Styles for the main invoice container */
+.invoice-container {
+  padding: 20px; /* Adds padding inside the container */
+  font-family: Arial, sans-serif; /* Sets the font for the invoice */
+  background-color: #f8f9fa; /* Light gray background color */
+  border-radius: 8px; /* Rounds the corners of the container */
+  box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1); /* Adds a subtle shadow for depth */
+  max-width: 600px; /* Limits the width of the invoice container */
+  margin: 0 auto; /* Centers the invoice container horizontally */
+}
+
+/* Invoice Header Styling */
+/* Styles for the header section of the invoice */
+.invoice-header {
+  text-align: center; /* Centers the header text */
+  margin-bottom: 20px; /* Adds space below the header */
+}
+
+/* Invoice Content Styling */
+/* Styles for the main content section of the invoice */
+.invoice-content {
+  background-color: white; /* White background for the invoice content */
+  padding: 20px; /* Adds padding inside the content section */
+  border-radius: 5px; /* Rounds the corners of the content box */
+  box-shadow: 0 1px 3px rgba(0, 0, 0, 0.1); /* Adds a subtle shadow */
+}
+
+/* Paragraph Styling inside the Invoice Content */
+/* Styles for the text inside the invoice content */
+.invoice-content p {
+  font-size: 16px; /* Font size for the invoice text */
+  margin-bottom: 10px; /* Adds space below each paragraph */
+}
+
+/* Invoice Buttons Styling */
+/* Styles for the container that holds the Print and Email buttons */
+.invoice-buttons {
+  display: flex; /* Flexbox layout to position buttons */
+  justify-content: center; /* Centers the buttons horizontally */
+  align-items: center; /* Aligns the buttons vertically */
+  gap: 10px; /* Adds space between the buttons */
+  margin-top: 20px; /* Adds space above the button group */
+}
+
+/* Styles for the Print and Email buttons */
+.print-button, .email-button {
+  padding: 10px 20px; /* Adds padding inside the buttons */
+  font-size: 16px; /* Font size for the button text */
+  background-color: #007bff; /* Blue background color */
+  color: white; /* White text color */
+  border: none; /* Removes default border */
+  border-radius: 5px; /* Rounds the corners of the buttons */
+  cursor: pointer; /* Changes the cursor to pointer on hover */
+}
+
+/* Hover effect for Print and Email buttons */
+.print-button:hover, .email-button:hover {
+  background-color: #0056b3; /* Darker blue on hover */
+}
+
+/* Invoice Footer Styling */
+/* Styles for the footer section of the invoice */
+.invoice-footer {
+  margin-top: 20px; /* Adds space above the footer */
+  text-align: center; /* Centers the footer text */
+}
+
+/* General Button Styling */
+/* Styles for any generic button */
+.button {
+  padding: 10px 20px; /* Adds padding inside the button */
+  background-color: #007bff; /* Blue background color */
+  color: white; /* White text color */
+  border: none; /* Removes default border */
+  border-radius: 5px; /* Rounds the corners of the button */
+  cursor: pointer; /* Changes the cursor to pointer on hover */
+}
+
+/* Hover effect for the general button */
+.button:hover {
+  background-color: #0056b3; /* Darker blue on hover */
+}
+
+/* Print Styles */
+/* Styles applied when the page is being printed */
+@media print {
+  .invoice-footer, .invoice-buttons {
+    display: none; /* Hides the footer and buttons when printing */
+  }
+
+  /* Removes box-shadow and border during print */
+  .invoice-container {
+    box-shadow: none;
+    border: none;
+  }
+}
+
+/* Footer Styling */
+/* Styles for the footer at the bottom of the page */
+footer {
+  margin-top: 50px; /* Adds space above the footer */
+}

@@ -1,0 +1,104 @@
+/* Container Styling for the Sign-In Page */
+/* Styles for the main container of the sign-in page */
+.signin-page {
+  font-family: Arial, sans-serif; /* Sets the font for the sign-in page */
+  width: 300px; /* Fixed width for the sign-in form */
+  margin: 0 auto; /* Centers the form horizontally */
+  padding: 20px; /* Adds padding around the content */
+  border: 1px solid #ccc; /* Light gray border around the form */
+  border-radius: 5px; /* Rounds the corners of the container */
+  background-color: #f9f9f9; /* Light gray background color */
+}
+
+/* Styles for the heading in the sign-in page */
+.signin-page h1 {
+  text-align: center; /* Centers the heading */
+  margin-bottom: 20px; /* Adds space below the heading */
+}
+
+/* Sign-In Options Styling */
+/* Styles for the buttons used to toggle between sign-in options */
+.signin-options {
+  display: flex; /* Flexbox layout to arrange buttons in a row */
+  justify-content: center; /* Centers the buttons horizontally */
+  margin-bottom: 20px; /* Adds space below the buttons */
+}
+
+/* Styles for the individual option buttons */
+.signin-options button {
+  padding: 10px 20px; /* Adds padding inside the buttons */
+  margin: 0 5px; /* Adds space between the buttons */
+  cursor: pointer; /* Changes the cursor to a pointer on hover */
+  border: 1px solid #ccc; /* Light gray border for inactive buttons */
+  background-color: #fff; /* White background for inactive buttons */
+}
+
+/* Styles for the active option button */
+.signin-options button.active {
+  background-color: #007bff; /* Blue background for the active button */
+  color: #fff; /* White text color for the active button */
+  border: 1px solid #007bff; /* Blue border for the active button */
+}
+
+/* Sign-In Form Styling */
+/* Styles for form elements inside the sign-in form */
+.signin-form div {
+  margin-bottom: 15px; /* Adds space between form elements */
+}
+
+/* Styles for form labels */
+.signin-form label {
+  display: block; /* Ensures the label is displayed as a block element */
+  margin-bottom: 5px; /* Adds space below the label */
+  font-weight: bold; /* Makes the label text bold */
+}
+
+/* Styles for input fields */
+.signin-form input {
+  width: 100%; /* Makes the input fields full width */
+  padding: 8px; /* Adds padding inside the input fields */
+  box-sizing: border-box; /* Ensures padding is included in the width */
+  border: 1px solid #ccc; /* Light gray border for input fields */
+  border-radius: 4px; /* Rounds the corners of the input fields */
+}
+
+/* Sign-In Button Styling */
+/* Styles for the submit button inside the sign-in form */
+.signin-form button {
+  width: 100%; /* Makes the submit button full width */
+  padding: 10px; /* Adds padding inside the button */
+  background-color: #007bff; /* Blue background color */
+  color: white; /* White text color */
+  border: none; /* Removes the default border */
+  border-radius: 4px; /* Rounds the corners of the button */
+  cursor: pointer; /* Changes the cursor to pointer on hover */
+}
+
+/* Hover effect for the submit button */
+.signin-form button:hover {
+  background-color: #0056b3; /* Darker blue background on hover */
+}
+
+/* Paragraph and Link Styling */
+/* Styles for paragraphs inside the sign-in form */
+.signin-form p {
+  text-align: center; /* Centers the text */
+  margin-top: 10px; /* Adds space above the paragraph */
+}
+
+/* Styles for links inside the paragraph */
+.signin-form p a {
+  color: #007bff; /* Blue text color for the link */
+  text-decoration: none; /* Removes underline from the link */
+}
+
+/* Hover effect for links */
+.signin-form p a:hover {
+  text-decoration: underline; /* Underlines the link on hover */
+}
+
+/* Footer Styling */
+/* Styles for the footer section */
+footer {
+  margin-top: 50px; /* Adds space above the footer */
+}

@@ -1,0 +1,80 @@
+/* Container Styling for the Register Page */
+/* Styles for the main container of the registration page */
+.register-page {
+  font-family: Arial, sans-serif; /* Sets the font for the registration page */
+  width: 300px; /* Fixed width for the form */
+  margin: 0 auto; /* Centers the form horizontally */
+  padding: 20px; /* Adds padding around the content */
+  border: 1px solid #ccc; /* Light gray border */
+  border-radius: 5px; /* Rounds the corners of the container */
+  background-color: #f9f9f9; /* Light gray background color */
+}
+
+/* Styles for the main heading in the register page */
+.register-page h1 {
+  text-align: center; /* Centers the heading */
+  margin-bottom: 20px; /* Adds space below the heading */
+}
+
+/* Register Options Styling */
+/* Styles for the buttons used to toggle between registration options */
+.register-options {
+  display: flex; /* Flexbox layout to arrange buttons in a row */
+  justify-content: center; /* Centers the buttons horizontally */
+  margin-bottom: 20px; /* Adds space below the buttons */
+}
+
+/* Styles for the individual option buttons */
+.register-options button {
+  padding: 10px 20px; /* Adds padding inside the buttons */
+  margin: 0 5px; /* Adds space between the buttons */
+  cursor: pointer; /* Changes the cursor to a pointer on hover */
+  border: 1px solid #ccc; /* Light gray border for the buttons */
+  background-color: #fff; /* White background for inactive buttons */
+}
+
+/* Styles for the active option button */
+.register-options button.active {
+  background-color: #007bff; /* Blue background for the active button */
+  color: #fff; /* White text color for the active button */
+  border: 1px solid #007bff; /* Blue border for the active button */
+}
+
+/* Register Form Styling */
+/* Styles for form elements inside the registration form */
+.register-form div {
+  margin-bottom: 15px; /* Adds space between form elements */
+}
+
+/* Styles for form labels */
+.register-form label {
+  display: block; /* Ensures the label is displayed as a block element */
+  margin-bottom: 5px; /* Adds space below the label */
+  font-weight: bold; /* Makes the label text bold */
+}
+
+/* Styles for input fields */
+.register-form input {
+  width: 100%; /* Makes the input fields full width */
+  padding: 8px; /* Adds padding inside the input fields */
+  box-sizing: border-box; /* Ensures padding is included in width */
+  border: 1px solid #ccc; /* Light gray border for inputs */
+  border-radius: 4px; /* Rounds the corners of the input fields */
+}
+
+/* Submit Button Styling */
+/* Styles for the submit button inside the registration form */
+.register-form button {
+  width: 100%; /* Makes the submit button full width */
+  padding: 10px; /* Adds padding inside the button */
+  background-color: #007bff; /* Blue background color */
+  color: white; /* White text color */
+  border: none; /* Removes the default border */
+  border-radius: 4px; /* Rounds the corners of the button */
+  cursor: pointer; /* Changes the cursor to pointer on hover */
+}
+
+/* Hover effect for the submit button */
+.register-form button:hover {
+  background-color: #0056b3; /* Darker blue background on hover */
+}

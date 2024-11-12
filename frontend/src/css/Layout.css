@@ -1,0 +1,65 @@
+/* Navbar Styling */
+/* Styles for the navbar container */
+.navbar {
+  background-color: #333; /* Dark background color for the navbar */
+  overflow: hidden; /* Ensures content does not overflow */
+  padding: 10px 20px; /* Adds padding inside the navbar */
+  display: flex; /* Flexbox layout for the navbar */
+  justify-content: space-between; /* Places the logo and links on opposite sides */
+  align-items: center; /* Centers the items vertically */
+}
+
+/* Styles for the logo inside the navbar */
+.navbar .logo {
+  color: white; /* White text color for the logo */
+  font-size: 24px; /* Larger font size for the logo */
+}
+
+/* Navigation Links Styling */
+/* Removes default list styling and displays links horizontally */
+.nav-links {
+  list-style-type: none; /* Removes bullet points from the list */
+  margin: 0; /* Removes default margin */
+  padding: 0; /* Removes default padding */
+  display: flex; /* Displays list items in a row */
+}
+
+/* Styles for each list item in the navbar */
+.nav-links li {
+  margin: 0 10px; /* Adds space between each navigation link */
+}
+
+/* Styles for the anchor (link) tags in the navbar */
+.nav-links li a {
+  color: white; /* White text color for the links */
+  text-decoration: none; /* Removes underline from links */
+}
+
+/* Hover effect for navigation links */
+.nav-links li a:hover {
+  text-decoration: underline; /* Underlines links on hover */
+}
+
+/* Button Styling inside the Navbar */
+/* Styles for buttons inside the navbar (used like links) */
+.nav-links button {
+  background: none; /* No background color */
+  border: none; /* Removes the border */
+  color: white; /* White text color */
+  cursor: pointer; /* Pointer cursor to indicate clickable button */
+  font-size: 18px; /* Font size for button text */
+}
+
+/* Hover effect for navbar buttons */
+.nav-links button:hover {
+  text-decoration: underline; /* Underlines buttons on hover */
+}
+
+/* Footer Styling */
+/* Styles for the footer section */
+footer {
+  background-color: #333; /* Dark background color for the footer */
+  color: white; /* White text color */
+  text-align: center; /* Centers the text in the footer */
+  padding: 10px; /* Adds padding inside the footer */
+}

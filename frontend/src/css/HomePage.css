@@ -1,0 +1,262 @@
+/* General Styling for HomePage */
+/* Styles for the homepage container */
+.homepage {
+  font-family: Arial, sans-serif; /* Sets the font for the homepage */
+  padding: 20px; /* Adds padding around the content */
+  background-color: #f5f5f5; /* Light gray background for the homepage */
+  text-align: center; /* Centers all text within the homepage */
+}
+
+/* Welcome Section Styling */
+/* Styles for the welcome section */
+.welcome-section {
+  margin-bottom: 50px; /* Adds space below the welcome section */
+}
+
+/* Styles for the main heading in the welcome section */
+.welcome-section h1 {
+  font-size: 48px; /* Large font size for emphasis */
+  color: #3498db; /* Blue color for the heading */
+}
+
+/* Styles for paragraphs in the welcome section */
+.welcome-section p {
+  font-size: 18px; /* Medium font size for readability */
+  color: #333; /* Dark gray text color */
+  margin: 10px 0; /* Adds space around the paragraph */
+}
+
+/* Styles for links in the welcome section */
+.welcome-section a {
+  display: inline-block; /* Makes the link behave like a button */
+  padding: 10px 20px; /* Adds padding inside the link */
+  background-color: #2ecc71; /* Green background for the button */
+  color: white; /* White text color */
+  text-decoration: none; /* Removes underline from the link */
+  border-radius: 5px; /* Rounds the corners of the button */
+  margin-top: 20px; /* Adds space above the button */
+  font-weight: bold; /* Makes the text bold */
+}
+
+/* Hover effect for links in the welcome section */
+.welcome-section a:hover {
+  background-color: #27ae60; /* Darker green on hover */
+}
+
+/* Featured Car Section Styling */
+/* Styles for the featured car section */
+.featured-car {
+  margin-bottom: 50px; /* Adds space below the featured car section */
+}
+
+/* Styles for the heading in the featured car section */
+.featured-car h2 {
+  font-size: 32px; /* Large font size for the heading */
+  color: #2c3e50; /* Darker blue-gray color for the heading */
+}
+
+/* Car Item Styling */
+/* Styles for individual car items */
+.car-item {
+  display: flex; /* Flexbox layout for aligning content */
+  align-items: center; /* Centers content vertically */
+  justify-content: center; /* Centers content horizontally */
+  flex-direction: column; /* Stacks content vertically */
+  margin: 0 auto; /* Centers the car item container */
+  background-color: white; /* White background for the car item */
+  border-radius: 10px; /* Rounds the corners of the car item */
+  box-shadow: 0 5px 15px rgba(0, 0, 0, 0.1); /* Adds a subtle shadow */
+  padding: 20px; /* Adds padding inside the car item */
+  max-width: 400px; /* Limits the width of the car item */
+  text-align: center; /* Centers the text */
+  transition: transform 0.3s ease; /* Smooth transition on hover */
+}
+
+/* Hover effect for car items */
+.car-item:hover {
+  transform: translateY(-10px); /* Moves the car item slightly upward on hover */
+}
+
+/* Car Image Styling */
+/* Styles for the car image */
+.car-image {
+  max-width: 100%; /* Ensures the image fits within its container */
+  border-radius: 10px; /* Rounds the corners of the image */
+  margin-bottom: 15px; /* Adds space below the image */
+}
+
+/* Car Details Section Styling */
+/* Styles for the car details text */
+.car-details {
+  text-align: center; /* Centers the text */
+}
+
+/* Styles for car name */
+.car-details h2 {
+  font-size: 24px; /* Font size for the car name */
+  font-weight: bold; /* Makes the car name bold */
+  color: #333; /* Dark gray text color */
+}
+
+/* Styles for car description */
+.car-details p {
+  font-size: 18px; /* Font size for the car description */
+  color: #666; /* Medium gray text color */
+}
+
+/* Car Button Styling */
+/* Styles for buttons inside car details */
+.car-details button {
+  background-color: #3498db; /* Blue background color */
+  color: white; /* White text color */
+  border: none; /* Removes border */
+  padding: 10px 20px; /* Adds padding inside the button */
+  margin: 10px 5px; /* Adds space around the buttons */
+  border-radius: 5px; /* Rounds the corners of the button */
+  cursor: pointer; /* Changes the cursor to pointer on hover */
+  transition: background-color 0.3s ease; /* Smooth background color transition */
+  font-size: 16px; /* Font size for the button text */
+}
+
+/* Hover effect for car buttons */
+.car-details button:hover {
+  background-color: #2980b9; /* Darker blue on hover */
+}
+
+/* Price Styling */
+/* Styles for the old price (crossed out) */
+.old-price {
+  text-decoration: line-through; /* Crosses out the old price */
+  color: #b12704; /* Red color for the old price */
+  font-weight: bold; /* Bold text */
+  margin-bottom: 5px; /* Adds space below the old price */
+}
+
+/* Styles for the current price */
+.price {
+  font-size: 20px; /* Larger font size for the price */
+  margin-bottom: 15px; /* Adds space below the price */
+  color: #333; /* Dark gray text color */
+}
+
+/* Search Car Section Styling */
+/* Styles for the search car section */
+.search-car {
+  margin-bottom: 50px; /* Adds space below the search car section */
+}
+
+/* Styles for the search heading */
+.search-car h2 {
+  font-size: 28px; /* Font size for the search heading */
+  margin-bottom: 20px; /* Adds space below the heading */
+}
+
+/* Styles for the search form */
+.search-car form {
+  display: flex; /* Flexbox layout for the form */
+  justify-content: center; /* Centers the form elements */
+  gap: 20px; /* Adds space between form elements */
+  flex-wrap: wrap; /* Wraps form elements if the screen is too narrow */
+}
+
+/* Form Group Styling */
+/* Styles for form groups (label and input/select) */
+.form-group {
+  display: flex; /* Flexbox layout for the form group */
+  flex-direction: column; /* Stacks label and input vertically */
+  text-align: left; /* Aligns text to the left */
+  margin-bottom: 15px; /* Adds space below each form group */
+  margin-right: 20px; /* Adds space to the right of each form group */
+}
+
+/* Styles for labels in the form */
+.form-group label {
+  font-weight: bold; /* Makes the label text bold */
+  margin-bottom: 5px; /* Adds space below the label */
+  color: #333; /* Dark gray text color */
+}
+
+/* Styles for input and select elements in the form */
+.form-group input, 
+.form-group select {
+  padding: 10px; /* Adds padding inside input and select elements */
+  font-size: 16px; /* Font size for input text */
+  border-radius: 5px; /* Rounds the corners of the input and select */
+  border: 1px solid #ccc; /* Light gray border */
+  width: 200px; /* Consistent width for input and select */
+}
+
+/* Horizontal line before the search button */
+.center-line {
+  margin: 20px 0; /* Adds space above and below the line */
+  border: none; /* Removes default border */
+  border-top: 1px solid #ccc; /* Light gray horizontal line */
+}
+
+/* Centered search button */
+/* Styles for centering the search button */
+.center-button {
+  display: flex; /* Flexbox layout */
+  justify-content: center; /* Centers the button horizontally */
+  margin-top: 20px; /* Adds space above the button */
+}
+
+/* Search Button Styling */
+/* Styles for the search button */
+.search-button {
+  padding: 10px 20px; /* Adds padding inside the button */
+  font-size: 16px; /* Font size for the button text */
+  border-radius: 5px; /* Rounds the corners of the button */
+  background-color: #2ecc71; /* Green background color */
+  color: white; /* White text color */
+  border: none; /* Removes default border */
+}
+
+/* Hover effect for the search button */
+.search-button:hover {
+  background-color: #27ae60; /* Darker green on hover */
+}
+
+/* Old Price Styling (Duplicate) */
+.old-price {
+  text-decoration: line-through; /* Crosses out the old price */
+  color: #030100; /* Dark color for the old price */
+  font-weight: bold; /* Bold text */
+  margin-bottom: 5px; /* Adds space below the old price */
+}
+
+/* Price Styling (Duplicate) */
+.price {
+  font-size: 20px; /* Font size for the current price */
+  margin-bottom: 20px; /* Adds space below the price */
+  color: #333; /* Dark gray text color */
+}
+
+/* Footer Styling */
+/* Styles for the footer at the bottom of the page */
+footer {
+  margin-top: 50px; /* Adds space above the footer */
+}
+
+/* Styles for paragraph text in the footer */
+footer p {
+  font-size: 14px; /* Small font size for footer text */
+  color: #999; /* Light gray text color */
+}
+
+/* Select Box Styling */
+/* Styles for the select dropdown */
+select {
+  max-height: 150px; /* Limits the height of the select box */
+  overflow-y: auto;  /* Adds vertical scroll if needed */
+  width: 100%; /* Full width for the select box */
+  padding: 8px; /* Adds padding inside the select box */
+  border-radius: 4px; /* Rounds the corners */
+  border: 1px solid #ccc; /* Light gray border */
+}
+
+/* Consistent width for input and select fields in form group */
+.form-group select, 
+.form-group input {
+  width: 200px; /* Ensures consistent width */
+}

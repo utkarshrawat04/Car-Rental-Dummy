@@ -1,0 +1,120 @@
+/* General Styling for the Feedback Page */
+/* Styles for the feedback page container */
+.feedback-page {
+    max-width: 600px; /* Limits the width of the page content */
+    margin: 0 auto; /* Centers the container horizontally */
+    padding: 20px; /* Adds padding around the content */
+    text-align: center; /* Centers text within the page */
+    background-color: #f9f9f9; /* Light gray background color */
+    border-radius: 10px; /* Rounds the corners of the page container */
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); /* Adds a subtle shadow for depth */
+    font-family: 'Arial', sans-serif; /* Sets the font for the page */
+}
+  
+/* Styles for the main heading (h1) */
+h1 {
+    color: #333; /* Dark gray color for the heading text */
+    font-size: 2.5rem; /* Larger font size for emphasis */
+    margin-bottom: 10px; /* Adds space below the heading */
+}
+  
+/* Styles for the paragraph (p) text */
+p {
+    font-size: 1.2rem; /* Slightly larger font size for readability */
+    color: #777; /* Medium gray text color */
+    margin-bottom: 30px; /* Adds space below the paragraph */
+}
+  
+/* Feedback Form Styling */
+/* Styles for the feedback form container */
+.feedback-form {
+    display: flex; /* Flexbox layout for form elements */
+    flex-direction: column; /* Stacks form elements vertically */
+    gap: 20px; /* Adds space between form elements */
+}
+  
+/* Styles for individual form groups (input, textarea, labels) */
+.form-group {
+    display: flex; /* Flexbox layout */
+    flex-direction: column; /* Stacks label and input vertically */
+    text-align: left; /* Aligns text to the left */
+}
+  
+/* Styles for labels in the form */
+.form-group label {
+    font-size: 1.1rem; /* Font size for form labels */
+    color: #333; /* Dark gray color for labels */
+    margin-bottom: 5px; /* Adds space below labels */
+}
+  
+/* Styles for input fields and textarea */
+.form-group input, .form-group textarea {
+    padding: 10px; /* Adds padding inside input and textarea */
+    border-radius: 5px; /* Rounds the corners of the input fields */
+    border: 1px solid #ddd; /* Light gray border */
+    font-size: 1rem; /* Standard font size for input text */
+    width: 100%; /* Full width input fields */
+    box-sizing: border-box; /* Ensures padding and border are included in the width */
+    outline: none; /* Removes default focus outline */
+}
+  
+/* Styles for input/textarea when focused */
+.form-group input:focus, .form-group textarea:focus {
+    border-color: #5cb85c; /* Green border color on focus */
+}
+  
+/* Rating Section Styling */
+/* Container for the rating group */
+.rating-group {
+    text-align: left; /* Aligns text to the left */
+}
+  
+/* Flexbox layout for the star rating */
+.rating {
+    display: flex; /* Displays stars in a row */
+    gap: 5px; /* Adds space between stars */
+}
+  
+/* Styles for individual stars */
+.star {
+    font-size: 2rem; /* Larger font size for the stars */
+    cursor: pointer; /* Changes cursor to pointer on hover */
+    color: #ccc; /* Default gray color for unselected stars */
+}
+  
+/* Styles for selected stars */
+.star.selected {
+    color: #f39c12; /* Gold color for selected stars */
+}
+  
+/* Submit Button Styling */
+/* Styles for the submit button */
+.submit-button {
+    background-color: #5cb85c; /* Green background color */
+    color: white; /* White text color */
+    padding: 12px 20px; /* Adds padding inside the button */
+    border: none; /* Removes default border */
+    border-radius: 5px; /* Rounds the corners of the button */
+    font-size: 1.1rem; /* Larger font size for the button text */
+    cursor: pointer; /* Changes cursor to pointer on hover */
+    transition: background-color 0.3s ease; /* Smooth transition on hover */
+}
+  
+/* Hover effect for the submit button */
+.submit-button:hover {
+    background-color: #4cae4c; /* Darker green background on hover */
+}
+  
+/* Success Message Styling */
+/* Styles for the success message displayed after form submission */
+.success-message {
+    margin-top: 20px; /* Adds space above the success message */
+    color: #28a745; /* Green text color for success */
+    font-size: 1.2rem; /* Font size for the success message */
+}
+  
+/* Footer Styling */
+/* Styles for the footer section */
+footer {
+    margin-top: 50px; /* Adds space above the footer */
+}

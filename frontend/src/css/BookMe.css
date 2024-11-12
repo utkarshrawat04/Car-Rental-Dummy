@@ -1,0 +1,90 @@
+
+.payment-container {
+  display: flex; 
+  justify-content: center; 
+  align-items: center;
+  height: 100vh; /* Full viewport height */
+  background-image: url('../images/Car_Rental_Background.jpg'); /* The background image URL */
+  background-size: cover; /* Ensures the background image covers the container */
+  background-position: center; /* Centers the background image */
+}
+
+/* Payment Form */
+/* Styles for the payment form box */
+.payment-form {
+  background-color: rgba(255, 255, 255, 0.9); /* Semi-transparent white background */
+  padding: 20px; /* Adds padding inside the form */
+  border-radius: 10px; /* Rounds the corners of the form */
+  max-width: 400px; /* Maximum width of the form */
+  width: 100%; /* Ensures the form is responsive */
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1); /* Adds a subtle shadow for depth */
+}
+
+/* Styles for the form title */
+.payment-title {
+  text-align: center; /* Centers the title */
+  font-size: 24px; /* Larger font size for the title */
+  font-weight: bold; /* Makes the title bold */
+  margin-bottom: 20px; /* Adds space below the title */
+}
+
+/* Styles for labels within the form */
+label {
+  display: block; /* Ensures the label is displayed as a block element */
+  margin-bottom: 5px; /* Adds space below the label */
+  font-weight: bold; /* Makes the label text bold */
+  color: #333; /* Dark text color for labels */
+}
+
+/* Styles for input fields and select dropdowns */
+input,
+select {
+  width: 100%; /* Makes the input fields full width */
+  padding: 10px; /* Adds padding inside input fields */
+  margin-bottom: 15px; /* Adds space below input fields */
+  border: 1px solid #ccc; /* Light gray border */
+  border-radius: 5px; /* Rounds the corners of the input fields */
+  font-size: 16px; /* Font size for input text */
+}
+
+/* Layout for expiry date and CVV fields */
+.expiry-cvv {
+  display: flex; /* Displays the fields in a row */
+  justify-content: space-between; /* Adds space between the expiry and CVV fields */
+}
+
+/* Styles for the expiry input field */
+.expiry input {
+  width: 48%; /* Makes the expiry input field take up 48% of the container width */
+}
+
+/* Styles for the CVV input field */
+.cvv input {
+  width: 100%; /* Makes the CVV input field full width inside its container */
+}
+
+/* Styles for the payment button */
+.payment-button {
+  width: 100%; /* Makes the button full width */
+  padding: 12px; /* Adds padding inside the button */
+  background-color: #007bff; /* Blue background color */
+  color: white; /* White text color */
+  font-size: 18px; /* Larger font size for the button text */
+  border: none; /* Removes border */
+  border-radius: 5px; /* Rounds the corners of the button */
+  cursor: pointer; /* Changes cursor to pointer on hover */
+  transition: background-color 0.3s ease; /* Smooth transition for hover effect */
+}
+
+/* Hover effect for the payment button */
+.payment-button:hover {
+  background-color: #0056b3; /* Darker blue when hovered */
+}
+
+/* Footer */
+/* Styles for the footer at the bottom of the page */
+footer {
+  text-align: center; /* Centers the footer text */
+  font-size: 14px; /* Small font size */
+  margin-top: 20px; /* Adds space above the footer */
+}
